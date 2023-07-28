@@ -1,0 +1,33 @@
+.image{
+    width:100%;
+    object-fit: contain;
+    background: #eee;
+}
+.title span{
+    display: block;
+    margin: 23px 0 14px;
+    line-height: 1.6em;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.credits{
+    margin-bottom: 0;
+    line-height: 1.6em;
+    overflow: hidden;
+    font-family: "HelveticaNeueW01-45Ligh", Helvetica, Arial, Verdana, "Noto Sans Japanese", "Noto Sans SC", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 12px;
+    color: #000;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: block;
+}
+.creadits,
+.readmore{
+    letter-spacing: 0.1em;
+    opacity: 0.8;
+    margin-top: 20px;
+}
